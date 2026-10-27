@@ -60,6 +60,7 @@ object Build : BuildType({
                 doesNotEqual("teamcity.build.branch", "master")
             }
             goals = "clean test"
+            userSettingsSelection = "nexus-settings"
         }
     }
 
